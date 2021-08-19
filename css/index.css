@@ -551,7 +551,7 @@
 
 @media only screen and (max-width: 768px) {
   .cammy_box {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .cammy_last_btns {
     grid-template-columns: 1fr 1fr;

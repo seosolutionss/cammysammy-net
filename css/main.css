@@ -176,6 +176,10 @@ body {
   height: 100%;
 }
 
+.site-logo {
+  margin-left: 10px;
+}
+
 .active {
   background-color: var(--colortwo);
   color: var(--colorseven) !important;

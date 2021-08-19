@@ -42,7 +42,7 @@ body {
   height: 100%;
   z-index: -1;
   /* filter: blur(3px); */
-  background: url(https://www.mumbaibeauties.com/assets/images/back.jpg);
+  background: url('https://www.mumbaibeauties.com/assets/images/back.jpg') !important;
   background-size: 100% auto;
   /* opacity: 0.8; */
 }

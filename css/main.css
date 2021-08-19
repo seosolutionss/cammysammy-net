@@ -152,17 +152,6 @@ body p {
   margin-bottom: -5px;
 }
 
-.keyword {
-  background-color: var(--colorthree);
-  padding: 10px 0px;
-}
-
-.keyword h1 {
-  font-size: 1.4em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -190,10 +179,7 @@ body {
   width: 100%;
   height: 500;
 }
-.keyword {
-  width: 100%;
-  height: 42px;
-}
+
 .active {
   background-color: var(--colortwo);
   color: var(--colorseven) !important;

@@ -208,9 +208,11 @@
 }
 .zig_zac_left {
   width: 50%;
+  height: 100%;
 }
 .zig_zac_right {
   width: 50%;
+  height: 100%;
 }
 
 /* Slider */

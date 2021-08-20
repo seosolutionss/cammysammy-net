@@ -149,7 +149,10 @@ body p {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
+.heading_bg {
+  background-color: var(--bg);
+  padding: 20px;
+}
 /* global styles end  */
 .keyword > h1 {
   color: var(--colorseven);
@@ -365,6 +368,7 @@ a.site-logo {
   padding: 30px 0px;
   font-family: 'Play', sans-serif;
   text-align: center;
+  border-top: 1px solid var(--colorfive);
 }
 
 .footer .row {

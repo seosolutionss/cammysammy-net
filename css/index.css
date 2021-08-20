@@ -515,13 +515,13 @@
 }
 
 .contact_btn {
-  background: linear-gradient(#b30303 0, #8f0808 100%);
+  background: linear-gradient(#c3bf6d 0, #878232 100%);
   box-shadow: 0 3px 10px -5px rgb(0 0 0);
   color: #fff;
 }
 
 .cammy_contact_box {
-  background: linear-gradient(#daa520 0, #c58f05 0 100%);
+  background: linear-gradient(#d9594c 0, #e55934 0 100%);
   box-shadow: 0 3px 10px -5px rgb(0 0 0);
   padding: 20px;
   width: 100%;
@@ -533,6 +533,19 @@
   display: grid;
   grid-column-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* book_now_footer  */
+.book_now_footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.774);
+}
+
+.cammy_last_btns {
+  background-color: var(--colorfive);
 }
 
 /* media quories  */
@@ -581,9 +594,15 @@
   .new_type_box {
     margin-bottom: 10px;
   }
+  .book_now_footer {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 425px) {
+  .book_now_footer {
+    flex-direction: column;
+  }
   .cammy_box {
     grid-template-columns: 1fr;
   }

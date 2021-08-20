@@ -180,7 +180,7 @@ body p {
 .banner_cammy {
   width: 100%;
   height: 100%;
-  /* margin-bottom: -5px; */
+  margin-bottom: -5px;
 }
 
 body {
@@ -209,6 +209,11 @@ body {
 .top_banner {
   width: 100%;
   height: 100%;
+}
+
+.new_container {
+  width: 100%;
+  height: 62px;
 }
 
 .active {
@@ -249,6 +254,8 @@ a.site-logo {
   text-transform: uppercase;
   color: var(--colorsix);
   text-decoration: none;
+  width: 100%;
+  height: 14px;
 }
 .site-navbar ul {
   margin: 0;

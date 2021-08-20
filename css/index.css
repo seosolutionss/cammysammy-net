@@ -455,7 +455,10 @@
 .type_zif {
   margin: 0px auto;
 }
-
+.top_zig {
+  width: 100%;
+  height: 100%;
+}
 /* new gallery  */
 
 .new_china_gallery_box_img {

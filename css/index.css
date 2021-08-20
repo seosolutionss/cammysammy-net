@@ -459,7 +459,8 @@
 /* new gallery  */
 
 .new_china_gallery_box_img {
-  background-image: url(../img/main_gal.gif);
+  /* background-image: url(../img/main_gal.gif); */
+  background-color: rgb(182, 21, 21);
   padding: 5px;
   background-repeat: no-repeat;
   background-size: 100% 100%;

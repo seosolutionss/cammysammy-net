@@ -432,3 +432,43 @@ a.site-logo {
     align-items: center;
   }
 }
+
+.mobile_img {
+  display: none !important;
+}
+
+.spend_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.first_container h3 {
+  text-align: left !important;
+}
+
+.first_container {
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop_img {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .mobile_img {
+    display: block !important;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .desktop_img {
+    display: block !important;
+  }
+}
+
+.mobile_img {
+  height: 130vw;
+  width: 100%;
+}
